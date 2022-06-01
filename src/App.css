@@ -1,0 +1,202 @@
+html{
+  font-size: 62.5%;
+}
+.graph_visualization{
+  display: flex;
+  flex-direction: column;
+}
+.make_name{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* margin-left: 200px; */
+  width:100rem;
+  /* background-color: #553c9a; */
+}
+.donut-size{
+  height:50rem;
+  width:85rem;
+}
+.part_1{
+  display: flex;
+  flex-direction: row;
+  width:99%;
+}
+.part_2>div{
+  width: 50%;
+}
+.part_3{
+  width:99%;
+}
+.part_1 .univariate_analysis{
+  border-radius: 1.5rem;
+    background-color: white;
+    margin-left: 1.5rem;
+}
+.part_1 .bivariate_analysis{
+  border-radius: 1.5rem;
+  background-color: white;
+  margin-left: 1.5rem;
+}
+
+.yearly_bar_plot{
+  border-radius: 1.5rem;
+  background-color: white;
+  margin-left: 1.5rem;
+}
+.yearly_bar_plot .finding{
+  margin-top:8rem;
+}
+.part_1>div{
+  width:50%;
+}
+.part_2{
+  display: flex;
+  flex-direction: row;
+  width:99%;
+}
+.comparison{
+  margin-left: 8rem;
+}
+.car_make_details{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 1.5rem;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.select_component{
+  display: flex;
+  flex-direction: row;
+}
+.univariate_head{
+  background-color:rgb(74, 100, 219);
+   height: 6rem;
+   font-size: 1.7rem;
+    border-radius: 1.2rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    font-family:'Lucida Sans';
+    /* font-style: italic; */
+}
+.bivariate_head{
+  background-color:rgb(74, 100, 219);
+    border-radius: 1.2rem;
+    height: 6rem;
+    font-size: 1.7rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans';
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    margin-bottom: 1rem;
+}
+
+.yealy_bar_plot_head{
+  background-color: rgb(118, 115, 121);
+    border-radius: 1.2rem;
+    height: 6rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family:'Lucida Sans';
+    justify-content: center;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    margin-bottom: 2rem;
+}
+/* .bivariate_select_1{
+  width: 30rem;
+margin-left: 4rem;
+margin-right: 1rem;
+}
+.bivariate_select_2{
+  width: 30rem;
+  margin-right: 1rem;
+} */
+.stacked-bar{
+  margin-top: 3rem;
+}
+.stacked-bar-plot{
+  width: 35rem;
+  margin-left: 7rem;
+}
+
+.model-analysis{
+  background-color: #553c9a;
+  margin-left: 50rem;
+}
+@media(max-width:998px) {
+  html{
+    font-size:43%;
+  }
+}
+@media(max-width:768px) {
+  html{
+    font-size:33%;
+  }}
+  @media(max-width:1398px) {
+    html{
+      font-size:58%;
+    }
+}
+@media(max-width:1258px) {
+  html{
+    font-size:50%;
+  }
+}
+@media(max-width:1125px) {
+  html{
+    font-size:44%;
+  }
+}
+@media(max-width:480px) {
+  html{
+    font-size:25%;
+  }
+  #topnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+  }
+  .home_1{
+    display: flex;
+    align-items: center;
+    margin-left:5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .left{
+    margin-left: 20rem;
+  }
+  .donut-size{
+    margin-left:9rem;
+    width:20rem;
+    height: 130rem;
+  }
+  .comp-chart{
+    height:60rem;
+  }
+}
+@media (max-width:600px) {
+  .part_1,.part_2,.app_component_4,.company_component_1,.company_component_2,.company_component_3,.grp1{
+    flex-direction: column;
+  }
+  .part_1>div,.part_2>div,.app_component_4>div,.company_component_1>div,.company_component_2>div,.company_component_3>div,.grp1>div{
+    width: 100%;
+    margin-left: 1rem;
+  }
+  
+}

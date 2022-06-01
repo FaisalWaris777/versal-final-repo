@@ -1,0 +1,67 @@
+.bivariate-button{
+    padding: 1.0rem 0;
+    transition: 1.0s;
+}
+.bivariate-scatter-button{
+    color: white;
+}
+.bivariate-scatter-button{
+    color:#fff;
+}
+ .bivariate-button>button{
+    display: inline-block;
+    position: relative;
+    color: rgb(71, 55, 55);
+    background-color: rgb(190, 139, 241);
+    border: none;
+    overflow: hidden; 
+    margin-top:.2rem;
+    margin-bottom: 1.0rem;
+    font-family: Trebuchet MS;
+      width: 18.0rem;
+     height: 3.2rem;
+     font-size: 1.6rem;
+     font-weight: bold;
+     border-radius: 1.0rem; 
+     cursor: pointer;
+     position: relative;
+     margin-right: 2.0rem;
+     margin-left: 2.0rem;
+}
+
+.bivariate-button>button:hover{
+    background-color: rgb(163, 86, 240);
+    transition: background-color .5s ease;
+}
+
+.bivariate-button>button:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .3rem;
+    bottom: 0;
+    left: 0;
+    background-color: #111416;
+    transform-origin: left .2rem;
+     transform-origin: right .2rem; 
+    transition: transform 0.25s ease-out;
+}
+.bivariate-button>button:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.bivariate_select_1{
+    width: 30.0rem;
+    margin-left: 2.0rem;
+    margin-right: 1.0rem;
+    }
+    .bivariate_select_2{
+      width: 30.0rem;
+      margin-right: 1.0rem;
+      }
+    .select_component>div{
+      font-size: 1.4rem;
+      font-weight: bold;
+      font-family:'Lucida Sans';
+    }

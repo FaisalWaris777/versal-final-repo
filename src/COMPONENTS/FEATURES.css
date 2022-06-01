@@ -1,0 +1,98 @@
+.app_component_4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.0rem;
+}
+.app_component_4>div{
+    width: 48%;
+}
+.common-specs{
+    border-radius: 1.5rem;
+    background-color: white;
+    margin-left: 2.0rem;
+    margin-right: 2.0rem;
+}
+.common-specs .finding{
+  margin-top: 7.0rem;
+}
+.top-car{
+    border-radius: 1.5rem;
+    background-color: white;
+    margin-left: 2.0rem;
+    margin-right: .5rem;
+}
+.specs-rows{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+  }
+  .specs-rows>div{
+    margin-left: 6rem;
+    width:22.0rem;
+    display: flex;
+    padding: .5rem;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Trebuchet MS;
+     font-size: 2.0rem;
+     font-weight: bold;
+  }
+  .specs-head{
+    width:45.0rem;
+    height: 4.0rem;
+    background-color: rgb(177, 121, 233);
+      border-radius: 1.0rem 2.0rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      font-family: Trebuchet MS;
+      color: rgb(204, 250, 244);
+     font-size: 3.0rem;
+     margin-bottom: 2.0rem;
+     font-weight: bold;
+  }
+  .specs-body{
+    width:fit-content ; 
+    } 
+  .specs{
+    margin-top: 5.0rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .common-specs_head{
+    background-color: rgb(153, 146, 160);
+    border-radius: 1.2rem;
+    display: flex;
+    height: 6rem;
+    font-size: 1.7rem;
+    font-family:'Lucida Sans';
+    color: white;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    align-items: center;
+    justify-content: center;
+  }
+  .top-car-head{
+    background-color: rgb(153, 146, 160);
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 6rem;
+    font-size: 1.7rem;
+    margin-bottom: 2.0rem;
+    font-family:'Lucida Sans';
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+  }
+  .top-car-select{
+      margin-left: 2.0rem;
+      margin-right: 2.0rem;
+      margin-bottom: 2.0rem;
+      font-size: 1.4rem;
+      font-weight: bold;
+      font-family:'Lucida Sans';
+  }
